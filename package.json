@@ -1,0 +1,33 @@
+{
+  "name": "Gozem distances calculator",
+  "version": "1.0.0",
+  "description": "This project returns, the country and timezone info, distance (in km or miles) and the time difference in hours, between two geo locations.",
+  "main": "src/app.ts",
+  "author": {
+    "email": "azizmashkour@gmail.com",
+    "name": "Mashkour Abdel Aziz"
+  },
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "ts-node src/app.ts"
+  },
+  "dependencies": {
+    "@google/maps": "^0.5.5",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.16.4",
+    "moment-timezone": "^0.5.27",
+    "ts-node": "^8.1.0",
+    "typescript": "^3.4.5"
+  },
+  "devDependencies": {
+    "@types/google__maps": "^0.5.11",
+    "@types/moment-timezone": "^0.5.12",
+    "@types/dotenv": "^6.1.1",
+    "@types/express": "^4.16.1",
+    "@types/google-maps": "^3.2.0",
+    "@types/node": "^12.0.0"
+  }
+}
